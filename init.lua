@@ -32,8 +32,8 @@ vim.o.cursorline = true
 require('github-theme').setup({
     options = {
         styles = {
-            comments = 'italic',
-            conditionals = 'italic',
+            comments = 'NONE',
+            conditionals = 'NONE',
         },
     },
 })
